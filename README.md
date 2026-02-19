@@ -19,10 +19,18 @@ This research explores the use of **Remote Sensing** and **Google Earth Engine (
 2. Click the **"Open in Colab"** button at the top of the file.
 3. Ensure you have a Google Earth Engine account authenticated to view the interactive layers.
 
-### 📊 Research Results
-Here is the methodology workflow and the final satellite detection output:
+## ⚠️ Publication Note & Corrected Visuals
+In the published version of this research, there were labeling errors in the final print regarding Figure 2 and Figure 3. This repository provides the corrected interpretation of the data:
 
+### ✅ Corrected Results Interpretation
+* **Fig 2 (Interactive Map)**: Originally labeled as just an interactive map, this interface displays the GEE environment where the parameters were tuned.
+* **Fig 3 (Underwater Ruins Layer)**: In the paper, the caption incorrectly identifies this as a "False Negative" or "Incorrectly Classified." **In reality, this is the successful final output**.
+* **The Red Mask**: The red clusters clearly identify the submerged architectural formations near the Dwarka coast that passed the NDWI > 0.3 threshold.
+
+### 📊 True Output View
+<img src="output%201.png" alt="Corrected Detection Output" width="600">
+*Above: The actual successful classification of submerged structures, correctly identified by the algorithm.*
+
+### 📊 Workflow
 <img src="Workflow.png" alt="Project Workflow" width="400">
 
-#### 🛰️ Detection Output
-<img src="output%201.png" alt="Detection Output" width="600">
