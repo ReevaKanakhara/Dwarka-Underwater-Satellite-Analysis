@@ -18,3 +18,11 @@ This research explores the use of **Remote Sensing** and **Google Earth Engine (
 1. Open the `DwarkaFinalCode.ipynb` file in this repository.
 2. Click the **"Open in Colab"** button at the top of the file.
 3. Ensure you have a Google Earth Engine account authenticated to view the interactive layers.
+
+### 📊 Research Results
+Here is the methodology workflow and the final satellite detection output:
+
+<img src="Workflow.png" alt="Project Workflow" width="400">
+
+#### 🛰️ Detection Output
+<img src="output%201.png" alt="Detection Output" width="600">
